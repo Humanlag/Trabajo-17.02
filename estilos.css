@@ -1,0 +1,39 @@
+header, body {
+    background-color: whitesmoke;
+}
+
+.logo {
+    width: 100px;
+}
+
+header {
+    background-image: url(./multimedia/Fondo\ papel.jpeg); 
+    background-size: 100%;
+    background-position-x: center;
+    background-position-y: center;
+    }
+
+.TituloPrincipal {
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.BajadaDeTitulo {
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+.navegador {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.img-carrusel {
+    height: 50vh;
+    object-fit: cover;
+}
+
+footer {
+    background-color: gray;
+}

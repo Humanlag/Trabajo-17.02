@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body class="container-fluid py-5 text-center">
+    <header class="row py-lg-5">                                    <!-- titulo-->
+        <div class="col-lg-6 col-md-8 mx-auto">
+            <h1 class="TituloPrincipal fw-dark">
+                INCUBA CIENCIA
+            </h1>
+            <p class="BajadaDeTitulo lead text-white"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt ab quos libero aliquid dolores. Quaerat deleniti beatae in impedit! In?</p>
+        </div>
+    </header>
+
+    <div">
+        <div class="navegador row text-end mx-5">                       <!-- navegador-->
+            <div class="col-md-4"> <p> Inicio </p></div>
+            <div class="col-md-4"> <p> Quienes Somos </p></div>
+            <div class="col-md-4"> <p> Contacto </p></div>
+        </div>
+    </div>
+    
+    <div class="row text-start mx-5">                               <!-- artículos (1-4). No usé la opción de tarjetas que me da Bootstrap-->
+        <section class="col-md-3 offset-md-1">
+            <h2 class="text-center">Artículo 1</h2> 
+            <img class="logo rounded mx-auto d-block" src="./multimedia/Logo Incuba Ciencias.png" alt="Logo Incuba Ciencia">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi dolores numquam, modi minima molestiae omnis qui at architecto quae possimus amet officia reiciendis necessitatibus. Saepe voluptas assumenda ipsum rerum. Dolorum!</p>
+        </section>
+    
+        <section class="col-md-3 offset-md-1">
+            <h2 class="text-center"> Artículo 2 </h2>
+            <img class="logo rounded mx-auto d-block" src="./multimedia/Logo Incuba Ciencias.png" alt="Logo Incuba Ciencia">
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi totam, dolores exercitationem distinctio quidem deleniti ex quae odit cumque quia.</p>
+        </section>
+     
+        <section class="col-md-3 offset-md-1">
+            <h2 class="text-center"> Artículo 3 </h2>
+            <img class="logo rounded mx-auto d-block" src="./multimedia/Logo Incuba Ciencias.png" alt="Logo Incuba Ciencia">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil, quod dolores. Et commodi eius impedit accusantium ad mollitia, consequatur reiciendis, provident quidem quibusdam sequi corporis maiores! Placeat maxime sapiente possimus.</p>
+        </section>
+        
+        <section class="col-md-12">
+            <h2 class="text-center"> Artículo 4 </h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore ex, nemo odit saepe ad nulla unde! Tempore, consectetur. Soluta asperiores inventore eius vitae perspiciatis sed ducimus perferendis, iusto nam dolore.</p>
+        </section>
+    </div>  
+
+    <div id="carouselExampleControls" class="carousel slide mt-5 mx-5" data-bs-ride="carousel">     <!-- CARRUSEL-->
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./multimedia/Fondo Ipad.jpeg" class="d-block w-100 img-carrusel" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./multimedia/fondo 2.jpeg" class="d-block w-100 img-carrusel" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./multimedia/formato de trabajo.jpg" class="d-block w-100 img-carrusel" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+    <footer class="row text-start mt-5 mx-5">           <!-- FOOTER. EL FONDO NO LO LOGRÉ HACER DE EXTREMO A EXTREMO, ME FALTÓ UN DESCUBRIR QUÉ MARGIN ME AFECTABA-->
+        <div class="col-md-4"> <p> Autor: Daniel Guzmán Fuentes </p></div>
+        <div class="col-md-4"> <p> Teléfono de contacto: X XX XX XX XX </p></div>
+        <div class="col-md-4"> <p> E-mail: XXXXXXX@gmail.com </p></div>
+
+    </footer>
+    
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
